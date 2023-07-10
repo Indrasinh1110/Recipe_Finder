@@ -1,0 +1,26 @@
+.CategoryCard .CategoryItems{
+    overflow: hidden;
+    width: 0px;
+    height: 550px;
+    transition: 0 all;
+}
+.CategoryCard:hover  .CategoryItems{
+    width: 540px;
+    height: 450px;
+    margin: 5px;
+    border:2px solid rgb(41, 41, 36) ;
+    border-radius: 15px;
+    box-shadow:rgb(142, 142, 98) 0px 0px 15px;
+    overflow-y:scroll;
+    overflow-x: visible;
+    box-sizing: border-box;
+    background-color:rgba(37, 37, 36, 0.816);
+    color: black;
+    text-decoration: solid;
+    left:400px;
+    top:50px;
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

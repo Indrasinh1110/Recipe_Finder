@@ -1,0 +1,82 @@
+.CategoryCard{
+    width: 300px;
+}
+.CategoryInfo{
+    position: absolute;
+    left:300px;
+    top: 700px;
+    box-sizing: border-box;
+    width: 900px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 0px;
+    overflow:hidden;
+    transition: 0.3s all ;
+    box-sizing: border-box;
+}
+.CategoryImg{
+    border-radius: 10px;
+    width:350px;
+    margin: 10px;
+    box-shadow:rgb(190, 181, 181) 0px 0px 10px;
+}
+.CategoryDescription{
+    width: 350px;
+    height: 200px;
+    overflow-y: scroll;   
+}
+.CategoryName{
+    color: white;
+    position: relative;
+    font-size: xx-large;
+    font-weight:400;
+    padding:5px;
+    box-sizing: border-box;
+    height: 45px;
+}
+.NameTag{
+padding: 2px;
+font-size: larger;
+background-color:rgb(158, 199, 10);
+margin: 5px;
+padding-left: 20px;
+border-radius: 20px;
+width: 150px;
+margin-inline:75px;
+}
+.CategoryCard:hover .CategoryInfo{
+    height: 100%;
+    overflow: hidden;
+    padding: 10px;
+    margin: 10px;
+}
+.CategoryCard:hover .NameTag{
+    background-color: rgb(0, 255, 153);
+    color: black;
+    margin-left:90px;
+    margin-right: 60px;
+    box-shadow: rgb(74, 74, 74) 0px 0px 5px;
+}
+.CategoryCard:hover .CategoryDescription{
+    padding: 30px;
+    margin: 10px;
+    font-size: larger;
+    background-color: rgb(200, 255, 128);
+    color: black;
+}
+
+.ProductsPath{
+    position: absolute;
+    left:300px;
+    top: 100px;
+    box-sizing: border-box;
+    width: 1200px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 0px;
+    overflow:hidden;
+    transition: 0.3s all ;
+    box-sizing: border-box;
+}

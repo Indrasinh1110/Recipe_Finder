@@ -1,0 +1,54 @@
+    .intro-page {    
+    text-align: center;
+    padding-top: 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    background-image: url('https://www.positanoph.com/wp-content/uploads/2014/10/headerHorizontal.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    }
+    .intro{
+        height: 500px;
+        margin: 50px;
+        padding: 50px;
+        background-color: #fffcfc2a;
+        width: 600px;
+    }
+    .intro-page h2{
+    color:#d8ff58;
+    padding:10px;
+    } 
+    .punchline {
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 20px;
+    }
+    .description {
+    font-size: 30px;
+    color:rgb(67, 255, 67);
+    margin-bottom: 100px;
+    }
+    .start-button {
+    background-color: #bada55;
+    color: #000;
+    border: none;
+    margin-top: 100px;
+    padding: 15px 25px;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    }
+    .start-button:hover {
+    background-color: #000000;
+    color: #bada55;
+    }
+    .intro-page {
+    background-color: #000;
+    color: #fff;
+    }
